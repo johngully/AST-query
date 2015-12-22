@@ -46,7 +46,8 @@ Program
 
 ### `var tree = program( sourceCode, options )`
 - **sourceCode** (String) - The source code to edit.
-- **options** (Object) _optional_ - [escodegen](https://github.com/Constellation/escodegen) option object
+- **escodegenOptions** (Object) _optional_ - [escodegen](https://github.com/Constellation/escodegen) option object
+- **esprimaOptions** (Object) _optional_ - object[esprima](http://esprima.org/doc) option 
 
 Returns an AST tree you can then query as explained below:
 
